@@ -27,9 +27,9 @@ We compute the **foldiness score** of the cerebral cortex as a composite metric 
 
 These metrics capture complementary aspects of cortical folding and surface complexity.
 
-## Input Segmentation
+## Cortex Gray Matter Segmentation
 
-All calculations are performed on the **gray matter** mask of the cortex. Initially this mask is obtained via **Otsu’s multithresholding method**, which segments the image into multiple intensity-based classes, isolating the cortical gray matter. I have manually labelled the **gray matter** for a sample cortex and trained a lightweight machine learning model to segment gray matter based on image intensity and distance from the center.
+All calculations are performed on the **gray matter** mask of the cortex. Initially this mask is obtained via **Otsu’s multithresholding method**, which segments the image into multiple intensity-based classes, isolating the cortical gray matter. I have manually labelled the **gray matter** for a sample cortex and trained a lightweight **machine learning** model to segment gray matter based on image intensity and distance from the center.
 
 ## Component Metrics
 
